@@ -50,13 +50,13 @@ app.post("/signin", async function(req,res){
                 var transfer = nodemailer.createTransport({
                     service:"hotmail",
                     auth:{
-                       user:"santhoshbalaji304@gmail.com",
-                       pass:"santhosh1234"
+                       user:"nathiyaayyadurai.com",
+                       pass:"nathi123"
                     }
                  
                  })
                    const options={
-                    from:"santhoshbalaji304@gmail.com",
+                    from:"nathiyaayyadurai@gmail.com",
                     to:email,
                     subject:"your login",
                     text:"your login into pizz shop"
